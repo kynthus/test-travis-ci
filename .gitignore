@@ -1,0 +1,17 @@
+### IntelliJ IDEA上の除外対象
+.idea/
+.bsp/
+target/
+*.iml
+
+### Scala向けの除外対象
+*.class
+*.log
+
+### Rust向けの除外対象
+debug/
+Cargo.lock
+**/*.rs.bk
+
+### docsフォルダはGitHub側で自動ビルドされるため不要
+docs/
